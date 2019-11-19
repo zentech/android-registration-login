@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
+        //checking if user is logged in
+        if (mAuth.getCurrentUser() != null) {
+            updateUI(mAuth.getCurrentUser());
+        }
+
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,9 +91,20 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
-//        updateUI(currentUser);
+        if (currentUser != null) {
+            updateUI(currentUser);
+        }
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        // Check if user is signed in (non-null) and update UI accordingly.
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        if (currentUser != null) {
+            updateUI(currentUser);
+        }
+    }
 
     public void updateUI(FirebaseUser currentUser) {
         Intent profileIntent = new Intent(getApplicationContext(), ProfileActivity.class);
