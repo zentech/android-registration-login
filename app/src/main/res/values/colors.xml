@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B77BA</color>
+    <color name="colorPrimaryDark">#000046</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="hintTextColor">#C8D4D6</color>
+    <color name="headerTextColor">#ECE3E3</color>
+    <color name="headerBackground">#240b36</color>
+    <color name="profileBackground">#FFFFFF</color>
+    <color name="profileTextBackground">#F0F2F4</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="linkTextColor">#C8DCE9</color>
+
+</resources>

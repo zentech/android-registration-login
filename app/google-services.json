@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "424796438245",
+    "firebase_url": "https://user-registration-app-f3fa2.firebaseio.com",
+    "project_id": "user-registration-app-f3fa2",
+    "storage_bucket": "user-registration-app-f3fa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424796438245:android:233cecebc26a6eb92a5e0c",
+        "android_client_info": {
+          "package_name": "org.techgeorge.loginscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424796438245-kkgava5ilbpgd24uthithf5cst40gkto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.techgeorge.loginscreen",
+            "certificate_hash": "56104c33912d59a6f7e347b0d31abe0c485b1b11"
+          }
+        },
+        {
+          "client_id": "424796438245-ce08skejjvlnobgu3fbno8sla178nrfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5dnSUXRomdMCswFJhn01SgL4DLVOsX2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424796438245-ce08skejjvlnobgu3fbno8sla178nrfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

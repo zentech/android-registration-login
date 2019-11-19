@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Loginscreen</string>
+
+    <string-array name="sexes">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
